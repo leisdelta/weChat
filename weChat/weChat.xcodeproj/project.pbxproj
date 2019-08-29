@@ -13,6 +13,7 @@
 		AB9860722318998000E6661E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9860712318998000E6661E /* Assets.xcassets */; };
 		AB9860752318998000E6661E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9860732318998000E6661E /* LaunchScreen.storyboard */; };
 		AB9860782318998000E6661E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9860772318998000E6661E /* main.m */; };
+		AB986080231899AA00E6661E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AB98607F231899AA00E6661E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AB9860742318998000E6661E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9860762318998000E6661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9860772318998000E6661E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB98607E231899AA00E6661E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AB98607F231899AA00E6661E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		AB9860672318997F00E6661E /* weChat */ = {
 			isa = PBXGroup;
 			children = (
+				AB98607E231899AA00E6661E /* Person.h */,
+				AB98607F231899AA00E6661E /* Person.m */,
 				AB9860682318997F00E6661E /* AppDelegate.h */,
 				AB9860692318997F00E6661E /* AppDelegate.m */,
 				AB98606B2318997F00E6661E /* ViewController.h */,
@@ -143,6 +148,7 @@
 			files = (
 				AB98606D2318997F00E6661E /* ViewController.m in Sources */,
 				AB9860782318998000E6661E /* main.m in Sources */,
+				AB986080231899AA00E6661E /* Person.m in Sources */,
 				AB98606A2318997F00E6661E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
